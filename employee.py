@@ -8,10 +8,5 @@ class Employee:
         self.designation = designation
         self.status = Status.Active
 
-name="dile"
-id="123"
-dep="IT"
-designation="manager"
-Status=""
-
-Employee(name, id, dep, designation, Status)
+    def __str__(self):
+            return "employee name: " + self.name + "employee id: " + self.id +"department: " + self.dep + "designation: " + self.designation + "status: " + self.status
